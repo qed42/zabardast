@@ -8,6 +8,33 @@
 	.r3{margin: 0 2px}
 	span.rtop span.r4, span.rbottom span.r4{margin: 0 1px; height: 2px}
 	
+	.middle {
+	  width: 174px;
+	  padding: 5px 13px;
+	  background: url("images/middle-bg.gif") repeat-y;
+	}
+	
+	.middlewidget {
+	  width: 200px;
+	  padding: 0 5px 0 5px;
+	  float: right;
+	}
+	
+	.middle-title {
+	  width: 200px;
+	  padding-bottom: 8px;
+	  color: #5e5e5e;
+	  font-size: 17px;
+	  background: #fff url("images/middle-top.gif") no-repeat bottom;
+	}
+	.middlebottom {
+	  width: 200px;
+	  height: 5px;
+	  margin-bottom: 19px;
+	  background: url("images/middle-bottom.gif") no-repeat;
+	}
+		
+	
 	.rtextboxl{color:#555555; background: #f8fbfd;}
 	.rtextboxinsidel {margin-left: 8px; margin-right: 8px; margin-top: 3px; margin-bottom:3px}
 	.rtopl, .rbottoml{display:block; background: #fff;}

@@ -1,5 +1,6 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
 
 <head>
@@ -33,6 +34,7 @@
 				          </a>
 				      	</h1>
 				      <?php endif; ?>
+				      
 				    </div>  
 				    <div class="span-6 append-3 last">  
 				      <?php if ($site_slogan): ?>
@@ -108,7 +110,17 @@
 			
 			<?php if ($right): ?>
         <div id="sidebar-right" class="span-8 last"><div id="sidebar-right-inner" class="region region-right">
-          <?php print $right; ?>
+          <?php print $right; ?><br />
+          
+          
+					<div class="middle-title"></div>
+						<div class="middle">	
+							asdas sad asd asd sa
+						</div>	 
+					<div class="middlebottom"></div>
+					          
+          
+          
         </div></div> <!-- /#sidebar-right-inner, /#sidebar-right -->
       <?php endif; ?>
 			
