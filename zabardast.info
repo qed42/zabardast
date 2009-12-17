@@ -1,36 +1,34 @@
-	name = zabardast
-	description = Drupal adaptation of rubiqube theme
-	core = 6.x
-	version = "6.14"
-	project = "Theme Development"
-	engine = phptemplate
-	
-	;stylesheet inclusion
-	stylesheets[all][] = zabardast.css
-	stylesheets[screen, projector][] = bp/screen.css
-	stylesheets[screen, projector][] = bp/ie.css
-	stylesheets[print][] = bp/print.css
-	
-	;regions definitions
-	regions[right] = Right sidebar
-	regions[content] = Content
-	regions[header] = Header
-	regions[footer] = Footer
-	;regions[left] = Left sidebar
-	
-	;features definitions
-	features[] = logo
-	features[] = name
-	features[] = slogan
-	features[] = mission
-	features[] = node_user_picture
-	features[] = comment_user_picture
-	features[] = search
-	;features[] = favicon
-	; These last two disabled by redefining the
-	; above defaults with only the needed features.
-	; features[] = primary_links
-	; features[] = secondary_links
-	
-	;scripts inclusion
-	scripts[] = script.js
+  name = zabardast
+  description = Drupal adaptation of rubiqube theme. A sub theme of blueprint drupal project
+  core = 6.x
+  version = "6.14"
+  project = "Theme Development"
+  base theme = blueprint
+  ;engine = phptemplate
+  
+  ;stylesheet inclusion
+  stylesheets[all][] = zabardast.css
+  stylesheets[screen, projector][] = css/screen.css
+  stylesheets[screen, projector][] = css/ie.css
+  stylesheets[print][] = css/print.css
+  
+  ;regions definitions
+  regions[right] = Right sidebar
+  regions[content] = Content
+  regions[header] = Header
+  regions[footer] = Footer
+  ;regions[left] = Left sidebar
+  
+  ;features definitions
+  features[] = logo
+  features[] = name
+  features[] = slogan
+  features[] = mission
+  features[] = node_user_picture
+  features[] = comment_user_picture
+  features[] = search
+  ;features[] = favicon
+  ; These last two disabled by redefining the
+  ; above defaults with only the needed features.
+  ; features[] = primary_links
+  ; features[] = secondary_links

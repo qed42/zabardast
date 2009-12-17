@@ -6,6 +6,11 @@ function zabardast_breadcrumb($breadcrumb) {
   }
 }
 
+function zabardast_feed_icon($url) {
+  if ($image = theme('image', path_to_theme().'/feed.png', t('Syndicate content'), t('Syndicate content'))) {
+    return '<a href="'. check_url($url) .'" class="feed-icon">'. $image. '</a>';
+  }
+}
 
 function zabardast_preprocess_search_theme_form(&$vars, $hook) {
 

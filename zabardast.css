@@ -1,3 +1,22 @@
+
+  ul.pager li a,ul.pager li.pager-current {
+    border:0;
+  }
+  
+  .border {
+    border:1px solid #000000;
+  }
+  
+  ul.pager li.pager-current {
+    background:#ffffff;
+    padding:2px 5px;
+    color:#000000;
+  }
+
+	div.container {
+	  margin: 0 auto;
+	}
+	
 	
 	.rtextbox{color:#555555; background: #e5f3fb;}
 	.rtextboxinside {margin-left: 8px; margin-right: 8px; margin-top: 3px; margin-bottom:3px}
@@ -18,6 +37,21 @@
 	  width: 200px;
 	  padding: 0 5px 0 5px;
 	  float: right;
+	}
+	
+	ul.pager {
+		margin-top:20px;
+		background:#b3d5e1;
+		padding:3px 0;
+	}
+	
+	ul.pager li {
+		margin-left:2px;
+	}
+	
+	ul.pager li.pager-current {
+		background:#ffffff;
+		padding:2px 5px;
 	}
 	
 	.middle-title {
@@ -108,7 +142,7 @@
 		width: 760px;
 		height: 40px;
 		float: left;
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 	
 	#site-slogan {
@@ -188,6 +222,15 @@
 	.block {
 		margin-top:10px;
 		padding:5px;
+	}
+	
+	#footer-message {
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    border:1px solid #E5F3FB;
+    padding:10px;
+    background:#E5F3FB;
 	}
 	
 	.content ul li {
