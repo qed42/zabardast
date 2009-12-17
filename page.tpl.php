@@ -25,15 +25,11 @@
 	  			<div class="span-16">
 	  			  <div class="floatleft">
 					    <div class="span-7">
-					      <?php if ($logo): ?>
-					        <div id="logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" id="logo-image" /></a></div>
-					      <?php else: ?>
-					      	<h1 id="site-name">
-					      		<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-					         		<?php print $site_name; ?>
-					          </a>
-					      	</h1>
-					      <?php endif; ?>
+					      <?php if ($logo && file_exists($logo)): ?>
+		              <div id="logo"><h1><a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>" rel="home"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" id="logo-image" /></a></h1></div>
+		            <?php else: ?>
+		              <div id="logo"><h1><a class="sitename" href="<?php print $front_page; ?>" title="<?php print $site_name; ?>" rel="home"><?php print $site_name; ?></a></h1></div>
+		            <?php endif; ?>
 					      
 					    </div>  
 					    <div class="span-6 append-3 last">  
